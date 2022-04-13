@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints first 50 fibonacci numbers, starting with 1 and 2, followed by a space.
+ * main - print first 50 fibonacci numbers, starting with 1 and 2 with a space.
  *
  * Return: Always 0.
  */
@@ -24,5 +24,5 @@ else
 printf(",");
 }
 
-return(0);
+return (0);
 }
