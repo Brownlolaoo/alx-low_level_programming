@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- * print _sign - prints the sign of a letter.
- * @c: the letter of which the sign will be printed.
+ * print _sign - return 0 letter not lowercase, 1 letter lowercase
  *
- * Return: 1 if the letter is greater than zero.
- *         0 if the letter is zero,
- *	   -1 if the number is less than zero.
+ * @n: the int to print
+ * Return: Always 0.	 
  */
 int print_sign(int n)
 {
