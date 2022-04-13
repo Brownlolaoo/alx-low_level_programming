@@ -19,10 +19,8 @@ fib1 = fib2;
 fib2 = sum;
 
 if (count == 49)
-{
 printf(",");
-}
-i++;
+else
 }
 _putchar('\n');
 return (0);
