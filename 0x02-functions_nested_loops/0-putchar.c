@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
- * 
- * Return: nothing, return void
+ * main-main block
+ * Description:print -putchar in a new line
+ * Return:this program returns zero
  */
-int main (void)
+int main(void)
 {
 _putchar('_');
 _putchar('P');
