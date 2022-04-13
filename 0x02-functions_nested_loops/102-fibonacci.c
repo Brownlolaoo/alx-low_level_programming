@@ -19,9 +19,9 @@ fib1 = fib2;
 fib2 = sum;
 
 if (count == 49)
-printf(",");
-else
-}
 _putchar('\n');
+else
+printf(",");
+}
 return (0);
 }
