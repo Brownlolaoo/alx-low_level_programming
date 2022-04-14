@@ -20,14 +20,16 @@ while (result <= 14)
 {
 if (result < 10)
 {
-second_number =result;
+second_number = result;
 }
+
 else
 {
 first_number = result / 10;
 second_number = result % 10;
 _putchar (first_number + '0');
 }
+
 _putchar (second_number + '0');
 
 result++;
