@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+
 /**
  * main - entry point
  *
@@ -43,7 +45,7 @@ i++;
 
 
 }
-printf('\n');
+printf("\n");
 return (0);
 }
 
