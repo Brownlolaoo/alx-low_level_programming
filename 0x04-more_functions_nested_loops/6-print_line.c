@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - prints underscores
- * @n: limit
+ * print_line - draw a straigt line in the terminal.
+ *@n: print int
  *
  * Return: Always 0.
  */
