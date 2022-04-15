@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * print_line - draw a straight line in the terminal.
- *@n: print int
+ * print_line - prints underscores
+ * @n: limit
+ *
  * Return: Always 0.
- * /
- *void print_line(int n)
+ */
+ void print_line(int n)
  {
 
  int i;
