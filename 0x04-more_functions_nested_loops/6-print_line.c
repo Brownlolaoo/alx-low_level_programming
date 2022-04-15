@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_line - draw a straigt line in the terminal.
  *@n: print int
