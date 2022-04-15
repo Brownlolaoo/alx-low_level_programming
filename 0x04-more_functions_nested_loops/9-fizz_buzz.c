@@ -2,7 +2,7 @@
 
 
 /**
- * main - entry point
+ * main - Entry point
  *
  * Return: void
  */
@@ -24,7 +24,7 @@ printf("FizzBuzz ");
 
 else if (i % 3 == 0)
 {
-printf("Fizz ")
+printf("Fizz ");
 }
 
 else if (i % 5 == 0)
@@ -33,12 +33,12 @@ if (i < p)
 printf("Buzz ");
 
 else
-printf("Buzz ");
+printf("Buzz");
 }
 
 else
 {
-printf("%1 ", i);
+printf("%i ", i);
 }
 
 i++;
