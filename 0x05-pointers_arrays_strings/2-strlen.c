@@ -2,7 +2,7 @@
 /**
  * _strlen - lenght of a string
  *@s: A pointer to an int that will be changed/updated
- * 
+ *
  * Return: void that means out answer is correct
  */
 int _strlen(char *s)
