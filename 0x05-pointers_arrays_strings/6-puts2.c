@@ -15,5 +15,5 @@ if (d % 2 == 0)
 _putchar (str[d]);
 }
 
-_putchar ('\n');
-}	
+_putchar ('\n')
+}
