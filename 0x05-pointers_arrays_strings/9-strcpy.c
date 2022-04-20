@@ -2,7 +2,7 @@
 /**
  * _strcpy - copies the string pointed to src
  *@dest: A pointer to a char that will be changed
- *@src: A pointer to a char that will be changed 
+ *@src: A pointer to a char that will be changed
  * Return: dest
  */
 
@@ -22,4 +22,3 @@ dest[u] = '\0';
 return (dest);
 
 }
-		
