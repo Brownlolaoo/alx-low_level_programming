@@ -1,14 +1,22 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
+ * main - generates random pass for task 101-crackme
+ * Return: zero
  */
 int main(void)
 {
-int num;
+int sum;
+char c;
 
-srand(time(0));
-num = rand();
-printf("%i\n", num);
+srand(time(Null));
+while (sum <= 2645)
+{
+c = rand() % 128;
+sum += c;
+_putchar(c);
+}
+_putchar(2772 - sum);
 return (0);
 }
