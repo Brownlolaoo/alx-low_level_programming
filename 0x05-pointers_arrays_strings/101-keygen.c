@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - generates random pass for task 101-crackme
- * Return: NULL
  */
 int main(void)
 {
