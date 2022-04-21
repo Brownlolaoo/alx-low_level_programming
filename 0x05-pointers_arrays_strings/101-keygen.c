@@ -3,14 +3,14 @@
 #include <time.h>
 /**
  * main - generates random pass for task 101-crackme
- * Return: zero
+ * Return: NULL
  */
 int main(void)
 {
 int sum;
 char c;
 
-srand(time(null));
+srand(time(NULL));
 while (sum <= 2645)
 {
 c = rand() % 128;
