@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * reverse_array - reverses the content of an array of intergers
- *@a: an array of integers
- *@n: number of elements of the array
+ * @a: an array of integers
+ * @n: number of elements of the array
  * Return: returns void
  */
 
@@ -20,10 +20,10 @@ end_c++;
 }
 
 for (i = 0; i < n / 2; i++;)
-}
+{
 c = *end_c;
 *end_c = *start_c;
-*start_c =c;
+*start_c = c;
 
 start_c++;
 end_c--;
