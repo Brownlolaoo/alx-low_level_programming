@@ -1,6 +1,5 @@
 #include "main.h"
-i#include <stdio.h>
-
+#include <stdio.h>
 /**
  * infinite_add - adds two numbers.
  * @n1: number one.
@@ -33,7 +32,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	       else
 		       add = 0;
 	       if (op > 0)
-		       *(r + bg) = (op % 10) + 48;
+               *(r + bg) = (op % 10) + 48;
 	       else
 		       *(r + bg) = '0';
 	       if (c1 > 0)
