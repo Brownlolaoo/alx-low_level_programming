@@ -22,4 +22,5 @@ sum2 = sum2 + *(a + i * size + size - i - 1);
 i++; /*add +1*/
 }
 printf("%i, %i\n", sum1, sum2);
+
 }
