@@ -5,7 +5,7 @@
  * @a: 2d arrays of chars
  *@size: number matrix
  *Return: void
-  */
+ */
 void print_diagsums(int *a, int size)
 {
 /*Declaring variables*/
