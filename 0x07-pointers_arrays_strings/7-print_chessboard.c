@@ -1,7 +1,7 @@
-i#include "main.h"
+#include "main.h"
 /**
  * print_chessboard - print the chessboard, 2d array
- * @a: array of chars
+ * @a: 2d array of chars
  * Return: void
  */
 void print_chessboard(char (a)[8])
