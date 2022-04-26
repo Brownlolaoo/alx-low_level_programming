@@ -16,7 +16,7 @@ unsigned int _strtnp(char *s, char *accept)
 	while (str1[i] != '\0') /*Declaring WHILE *s */
 	{
 		j = 0;
-		while (str1[i] != '\0') /*Declaring WHILE *accept*/
+		while (str1[j] != '\0') /*Declaring WHILE *accept*/
 		{
 		if (str2[j] == str1[i]) /*Evaluate condition*/
 		{
