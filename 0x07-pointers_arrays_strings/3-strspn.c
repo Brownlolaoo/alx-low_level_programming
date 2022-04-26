@@ -15,6 +15,9 @@ unsigned int _strtnp(char *s, char *accept)
 	i = 0;
 	while (str1[i] != '\0') /*Declaring WHILE *s */
 	{
+		j = 0;
+		while (str1[i] != '\0') /*Declaring WHILE *accept*/
+		{
 		if (str2[j] == str1[i]) /*Evaluate condition*/
 		{
 			count++; /*count number*/
@@ -28,5 +31,5 @@ unsigned int _strtnp(char *s, char *accept)
 	}
 	i++; /*add x+1*/
 }
-return (count); /*return the value of counts*/
+return (count); /*return the value of count*/
 }
