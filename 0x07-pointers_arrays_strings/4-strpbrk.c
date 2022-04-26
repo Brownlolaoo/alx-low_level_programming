@@ -3,8 +3,8 @@
  * _strpbrk - matches any character specified
  * @s: This the C string to be  scanned.
  * @accept:character in str1 that matches one of the characters in str2
- *Return: string s that matches any character specified in accept
- **/
+ * Return: string s that matches any character specified in accept
+ */
 char *_strpbrk(char *s, char *accept)
 {
 	int m;
@@ -13,7 +13,7 @@ char *_strpbrk(char *s, char *accept)
 		m = 0;
 		while (accept[m] != '\0') /*Evaluating *accept*/
 		{
-			if (*s == accept[j])
+			if (*s == accept[m])
 			{
 				return (s);
 			}
