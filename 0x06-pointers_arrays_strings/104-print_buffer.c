@@ -8,8 +8,8 @@
  */
 void print_buffer(char *b, int size)
 {
-  int 0, j, i;
-  0 = 0;
+  int o, j, i;
+  o = 0;
   if (size <= 0)
   {
     printf("\n");
@@ -40,4 +40,4 @@ void print_buffer(char *b, int size)
 	printf("\n");
 	o += 10;
      }
-  }
+}
