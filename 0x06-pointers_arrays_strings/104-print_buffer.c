@@ -37,8 +37,9 @@ void print_buffer(char *b, int size)
 	{
            c = '.';
 	}
-	printf("\n");
+	printf("%c", c);
+     }
+     printf("\n");
 	o += 10;
      }
-  
-  }
+}
