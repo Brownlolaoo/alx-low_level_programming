@@ -5,7 +5,7 @@
  * @iterator: number to iterate
  * Return: return 1 or 0
  */
-int evalaute_num(int num, int iterator)
+int evaluate_num(int num, int iterator)
 {
 if (iterator == num - 1)
 {
