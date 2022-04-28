@@ -16,14 +16,14 @@ return (1 + _strlen_recursion(++s));
 /**
  * p1 - palindrone
  * @s: pointer to string
- * @1: position
+ * @I: position
  * Return: boolena
  */
 int p1(char *s, int I)
 {
 if (I < 1)
 {
-return(1);
+return (1);
 }
 if (*s == *(s + I))
 {
