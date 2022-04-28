@@ -12,14 +12,14 @@ if (n == 0 || n == 1)
 return (n);
 else if  (i * i < n)
 return (_evaluate(i + 1, n));
-else if (i * i ==n) /*condition base*/
-return(i);
+else if (i * i == n) /*condition base*/
+return (i);
 return (-1);
 return (-1);
 }
 
 /**
- * _sqrt_recursion _ evaluate sqrt
+ * _sqrt_recursion - evaluate sqrt
  * @n: integer
  * Return: sqrt_recursion
  */
