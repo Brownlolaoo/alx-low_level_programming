@@ -31,7 +31,7 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 /*count size total*/
-size + (_strlen(s1) + _strlen(s2) + 1);
+size = (_strlen(s1) + _strlen(s2) + 1);
 /*malloc*/
 dst = (char *) malloc(size * sizeof(char));
 if (dst == 0)
@@ -43,7 +43,7 @@ for (i = 0; *(s1 + i) != '\0'; i++)
 *(dst + i) = *(s1 + i);
 for (u = 0; *(s2 + u) != '\0'; u++)
 {
-*(dst + i) *(s2 + u);
+*(dst + i) = *(s2 + u);
 i++;
 }
 return (dst);
