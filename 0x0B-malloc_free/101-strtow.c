@@ -17,7 +17,7 @@ return (NULL);
 for (i = 0; i < words; i++)
 {
 start = startIndex(str, j);
-end = endindex(str, start);
+end = endIndex(str, start);
 len = end - start;
 ptr[i] = malloc(sizeof(char) * (len + 1));
 if (!ptr[i])
@@ -47,7 +47,7 @@ return (ptr);
  */
 int startIndex(char *s, int index)
 {
-while (isSpace(*(s + index)))
+while (!isSpace(*(s + index)))
 index++;
 return (index);
 }
@@ -82,6 +82,8 @@ else if (!isSpace(*s) && !wordOn)
 {
 wordOn = 1;
 words++;
+}
+s++;
 }
 return (words);
 }
