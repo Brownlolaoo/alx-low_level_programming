@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_calloc -allocating memory for an array
- *@nmemb: number of elements in the array
- *@size: bytes for each position in array
- *Return: pointer void
+ * _calloc - allocating memory for an array
+ * @nmemb: number of elements in the array
+ * @size: bytes for each position in array
+ * Return: pointer void
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
@@ -16,5 +16,5 @@ if (p == NULL)
 return (NULL);
 for (i = 0; i < nmemb * size; i++)
 p[i] = 0;
-return(p);
+return (p);
 }
