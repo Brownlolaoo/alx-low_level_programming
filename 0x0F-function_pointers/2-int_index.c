@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "function_pointer.h"
+
 /**
  * int_index - earches for an integer
  * @array: array to search in
