@@ -8,22 +8,20 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-    int file, fwrite, p;
-
-    if (filename == NULL)
-        return (-1);
-    file = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0600);
-    if (file == -1)
-        return (-1);
-
-    if (text_content != NULL)
-    {
-        for (p = 0; text_content[p]; p++)
-            ;
-        fwrite = write(file, text_content, p);
-        if (fwrite == -1)
-            return (-1);
-    }
-    close(file);
-    return (1);
+int file, fwrite, p;
+if (filename == NULL)
+return (-1);
+file = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0600);
+if (file == -1)
+return (-1);
+if (text_content != NULL)
+{
+for (p = 0; text_content[p]; p++)
+     ;
+fwrite = write(file, text_content, p);
+if (fwrite == -1)
+return (-1);
+}
+close(file);
+return (1);
 }
