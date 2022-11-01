@@ -6,26 +6,27 @@
 /**
  * linear_search - searches for a value in an array of
  * integers using the Linear search algorithm
- * @array: array for value to be searched
+ * @array: array to search the value in
  * @size: size of the array
- * @value: value of the data
+ * @value: value to look for
  *
- * Return: the index of the value found,
- * or -1 if the value is not found
+ * Return: the index of the found value,
+ * or -1 if not found
  */
 int linear_search(int *array, size_t size, int value)
 {
-    size_t p = 0;
+    size_t i = 0;
 
     if (!array || size == 0)
         return (-1);
 
-    while (p < size)
+    while (i < size)
     {
-        printf("value checked array[%lu] = [%d]\n", p, array[p]);
-        if (array[p] == value)
-            return (p);
-        p++;
+        printf("Value checked array[%lu] = [%d]\n", i, array[i]);
+        if (array[i] == value)
+            return (i);
+        i++;
     }
+
     return (-1);
 }
